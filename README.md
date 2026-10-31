@@ -1,43 +1,25 @@
-# Hi, I'm Umesh Chounde 👋
+# Umesh Chounde
 
-**Privacy engineer and data-platform architect.** I build systems that turn US state privacy laws into enforceable, automated data controls, and I'm turning that work into open-source tooling and research.
+I'm a senior software engineer at Walmart. I've spent 9+ years working on data systems, and for the last few of them most of my time has gone to privacy.
 
-## What I'm working on
+I started out at Infosys writing ETL and big-data jobs for healthcare and banking clients, then did my MS at UNC Charlotte, where I was also a teaching assistant. I joined Walmart in 2020 and have worked on data platforms there ever since: Airflow pipelines, Spark and Databricks tuning, on-call, and the slow work of keeping a large platform reliable and affordable.
 
-US organizations now face a patchwork of state privacy laws: **CCPA/CPRA**, Virginia **VCDPA**, Washington **My Health My Data Act**, Nevada **SB 370**. Compliance is still mostly manual, duplicated across teams and hard to audit. My independent work aims to change that:
+Privacy came later. I lead the implementation of CCPA, VCDPA and MHMDA controls on a large data lake. What I learned is that the law is usually the easy part to read and the hard part to build. "Delete this person's data" sounds simple until you have to find every copy of it, prove it's gone, and do it again next week for a law that didn't exist last year. Most of that work is still done by hand, separately by each team, and it shouldn't be.
 
-- 🔓 **Open-source consumer-health-data classifier** built on a *content-based vs. use-based* classification model, to help organizations decide when data is regulated consumer health data under different state laws.
-- 📄 **Systems paper** describing the model, in preparation for **PoPETs 2027**.
+## What I'm building
 
-## What I do day to day
+Outside my day job, I'm working on tooling and research to help with this, starting with consumer health data.
 
-- Senior Software Engineer at Walmart Inc., working on large-scale data platforms.
-- Tech lead for privacy compliance (CCPA, VCDPA, MHMDA) on an enterprise-scale data lake: detection, classification, deletion and governance as shared platform capabilities rather than per-team implementations.
-- Design governance and policy-enforcement layers for AI-agent access to enterprise data.
-- Work across Engineering, Legal, InfoSec and Privacy to turn ambiguous regulatory text into reusable engineering.
+Laws like Washington's My Health My Data Act and Nevada's SB 370 cover data that may not look like health data at all. A grocery order can count, depending on how it's used. So I'm working on a classification model that separates content-based from use-based health data, which I plan to release as an open-source classifier and write up in a systems paper for PoPETs 2027.
 
-## Tech
+Neither is out yet. I'll link them here when they are.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white)
-![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=postgresql&logoColor=white)
-![Spark](https://img.shields.io/badge/-Spark-E25A1C?logo=apachespark&logoColor=white)
-![Airflow](https://img.shields.io/badge/-Airflow-017CEE?logo=apacheairflow&logoColor=white)
-![Databricks](https://img.shields.io/badge/-Databricks-FF3621?logo=databricks&logoColor=white)
-![GCP](https://img.shields.io/badge/-GCP-4285F4?logo=googlecloud&logoColor=white)
-![Azure](https://img.shields.io/badge/-Azure-0078D4?logo=microsoftazure&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white)
+## Tools I use most
 
-**Privacy and data engineering:** privacy-by-design · sensitive-data classification · fine-grained access control · data lineage · governance frameworks
+Python, SQL, Go, Spark, Airflow, Databricks, BigQuery, Postgres, Docker. Mostly on GCP and Azure, some AWS.
 
-## Education
+## Contact
 
-- M.S. Computer Science, University of North Carolina at Charlotte
-- B.E. Electronics & Telecommunication, University of Pune
+[LinkedIn](https://www.linkedin.com/in/umeshchounde/)
 
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/umeshchounde/)
-
-<sub>Views and projects here are my own and independent of my employer.</sub>
+The projects and opinions here are mine, not my employer's.
