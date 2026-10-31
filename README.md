@@ -20,4 +20,8 @@ US organizations now face a growing patchwork of state privacy laws: CCPA/CPRA, 
 
 `privacy-engineering` · `data-governance` · `ccpa` · `consumer-health-data` · `pii-detection` · `compliance-automation`
 
+## Links
+
+- LinkedIn: [linkedin.com/in/umeshchounde](https://www.linkedin.com/in/umeshchounde/)
+
 _Views and projects here are my own and independent of my employer._
